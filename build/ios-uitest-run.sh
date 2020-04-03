@@ -44,7 +44,7 @@ else
 		namespace = 'SamplesApp.UITests.Windows_UI_Xaml_Controls.TextBoxTests' or \
 		namespace = 'SamplesApp.UITests.Windows_UI_Xaml_Controls.PivotTests' or \
 		namespace = 'SamplesApp.UITests.Windows_UI_Xaml_Controls.ComboBoxTests' or \
-		namespace = 'SamplesApp.UITests.Windows_UI_Xaml_Media_Animation.DoubleAnimation_Tests' or \
+		namespace = 'SamplesApp.UITests.Windows_UI_Xaml_Media_Animation' or \
 		namespace = 'SamplesApp.UITests.Windows_UI_Xaml_Controls.BorderTests'
 	"
 fi
