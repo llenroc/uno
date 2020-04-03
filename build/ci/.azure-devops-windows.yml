@@ -42,7 +42,7 @@ jobs:
       msbuildLocationMethod: version
       msbuildVersion: latest
       msbuildArchitecture: x86
-      msbuildArguments: /r /p:CheckExclusions=True "/p:CombinedConfiguration=$(CombinedConfiguration)" /nodeReuse:true /detailedsummary /m # /bl:$(build.artifactstagingdirectory)\build.binlog
+      msbuildArguments: /r /p:CheckExclusions=True "/p:CombinedConfiguration=$(CombinedConfiguration)" /nodeReuse:true /detailedsummary /m  /bl:$(build.artifactstagingdirectory)\build-$(GitVersion_FullSemVer).binlog
       clean: false
       maximumCpuCount: true
       restoreNugetPackages: false
